@@ -2,7 +2,7 @@
  
 A CUPS raster filter and PPD for the **LH-560** thermal label printer (USB `09c6:0426`), which the vendor supports only through a macOS/Windows driver ("LeftHans2"). The printer speaks **TSPL**; this driver converts CUPS raster to the same TSPL stream the vendor's macOS filter produces.
  
-> **Status:** works on the author's LH-560. Tested on `<distro, CUPS version>`. Reports from other LH-560 / LeftHans2-family printers are welcome (see [Contributing](#contributing)).
+> **Status:** works on the author's LH-560. Tested on `Ubuntu 26.04.1, CUPS 2.4.16`. Reports from other LH-560 / LeftHans2-family printers are welcome (see [Contributing](#contributing)).
  
 **Not affiliated with the printer's vendor.** Names are used only to identify the hardware.
  
