@@ -19,7 +19,7 @@ A CUPS raster filter and PPD for the **LH-560** thermal label printer (USB `09c6
 Build dependency: the CUPS development headers (`libcups2-dev` on Debian/Ubuntu, `cups-devel` on Fedora/RHEL, `libcups` on Arch).
  
 ```sh
-git clone <this repo> && cd <repo>
+git clone https://github.com/ponty13/LH560 && cd LH560
 lpinfo -v                                       # find your printer's USB URI
 sudo sh install.sh "usb://LH/-560?serial=0.0"   # use the URI from lpinfo -v; keep the quotes
 ```
