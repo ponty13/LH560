@@ -20,7 +20,7 @@ Build dependency: the CUPS development headers (`libcups2-dev` on Debian/Ubuntu,
  
 ```sh
 git clone <this repo> && cd <repo>
-lpinfo -v                                  # find your printer's USB URI
+lpinfo -v                                       # find your printer's USB URI
 sudo sh install.sh "usb://LH/-560?serial=0.0"   # use the URI from lpinfo -v; keep the quotes
 ```
  
